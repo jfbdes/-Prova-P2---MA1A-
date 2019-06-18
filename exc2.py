@@ -1,3 +1,6 @@
+"""
+Professor nesse só coloquei a mais depois o print len ok?
+"""
 lista=[]
 lista2=[]
 x= open('series.csv', 'r')
