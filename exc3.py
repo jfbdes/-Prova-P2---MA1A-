@@ -6,8 +6,8 @@ s5=0
 s6=0
 s7=0
 s8=0
+s9=0
 v= open('series.csv','r')
-n= open('series_novas.csv','r')
 for line in v.readlines():
     sep= line.split(',')
     if sep[0]=="The Big Bang Theory":
@@ -18,6 +18,7 @@ for line in v.readlines():
         s3= s3+1
     elif sep[0]=="Black Mirror":
         s4= s4+1
+n= open('series_novas.csv','r')
 for line1 in n.readlines():
     sep1= line1.split(',')
     if sep1[0]=="Suits":
@@ -28,6 +29,8 @@ for line1 in n.readlines():
         s7= s7+1
     elif sep1[0]=="Lucifer":
         s8= s8+1
+    elif sep1[0] == "Narcos":
+        s9 = s9 +1
     
 print ('The Big Bang Theory:',s1,'episodios')
 print ('Friends:',s2,'episodios')
@@ -37,3 +40,4 @@ print ('Suits:',s5,'episodios')
 print ('Fuller House:',s6,'episodios')
 print ('Designated Survivor:',s7,'episodios')
 print ('Lucifer:',s8,'episodios')
+print ('Narcos:',s9,'episodios')
