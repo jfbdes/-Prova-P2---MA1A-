@@ -32,12 +32,12 @@ for line1 in n.readlines():
     elif sep1[0] == "Narcos":
         s9 = s9 +1
     
-print ('The Big Bang Theory:',s1,'episodios')
-print ('Friends:',s2,'episodios')
-print ('Breaking Bad:',s3,'episodios')
-print ('Black Mirror:',s4,'episodios')
-print ('Suits:',s5,'episodios')
-print ('Fuller House:',s6,'episodios')
-print ('Designated Survivor:',s7,'episodios')
-print ('Lucifer:',s8,'episodios')
-print ('Narcos:',s9,'episodios')
+print ('The Big Bang Theory:',s1,'episódios')
+print ('Friends:',s2,'episódios')
+print ('Breaking Bad:',s3,'episódios')
+print ('Black Mirror:',s4,'episódios')
+print ('Suits:',s5,'episódios')
+print ('Fuller House:',s6,'episódios')
+print ('Designated Survivor:',s7,'episódios')
+print ('Lucifer:',s8,'episódios')
+print ('Narcos:',s9,'episódios')
