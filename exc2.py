@@ -13,6 +13,6 @@ for line in y.readlines():
 
 print(lista)
 print(lista2)
-        
+print(len(lista)+ len(lista2))        
 
 
