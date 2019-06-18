@@ -1,3 +1,6 @@
+"""
+Professor nesse eu só adicionei o narcos ok? que eu tinha esquecido de resto tudo deu certo!
+"""
 s1=0
 s2=0
 s3=0
